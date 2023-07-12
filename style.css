@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Castoro', serif;
+    line-height: 1.5;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.title h2 {
+    font-size: 128px;
+    letter-spacing: 15px;
+}
+
+.title-name {
+    margin-top: 160px;
+    text-align: left;
+}
+
+.title img {
+    margin: 0 auto;
+}
+
+
+.title-resume {
+    text-align: right;
+}
+
+
+.intro {
+    background: #EFEFEF;
+}
+
+.container p {
+    font-size: 32px;
+    padding: 48px 0;
+    width: 50%;
+    margin-left: auto;
+}
+
+
+.list-title {
+    color: #AE0000;
+    font-size: 40px;
+    border-bottom: 3px solid #AE0000;
+}
+
+.list-detail,
+.list-detail a {
+    font-size: 24px;
+    color: #000;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.list-year {
+    font-size: 20px;
+    color: #949494;
+    font-style: italic;
+}
+
+.content-section {
+    width: 50%;
+}
+
+.footer {
+    padding: 64px 0;
+    background: #000;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    margin-right: 40px;
+}
